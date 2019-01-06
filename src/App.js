@@ -25,8 +25,8 @@ class App extends Component {
   }
  
   handleSubmit(){
-    console.log("Submit was pressed");
-    console.log(this.state);
+    //    console.log("Submit was pressed");
+    //    console.log(this.state);
     let { number, message, country } = this.state; 
     let url = `https://api.msg91.com/api/sendhttp.php?country=${country}&sender=OPINTA&route=4&mobiles=${number}&authkey=254145AmFnhfpgfGK5c27a269&message=${message}`
     fetch(url, {
