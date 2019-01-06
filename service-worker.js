@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/SMS_by_Opinta-Solutions/precache-manifest.bf273ad8ee43debd69d2e1cd9938730b.js"
+  "/SMS_by_Opinta-Solutions/precache-manifest.b22f4ae93dacd971d4644e21830fceb9.js"
 );
 
 workbox.clientsClaim();
